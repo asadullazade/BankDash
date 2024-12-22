@@ -1,0 +1,314 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+body {
+  padding: 30px;
+  width: 1440px;
+}
+.all {
+  display: flex;
+}
+.logo {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 60px;
+}
+.logo-style {
+  width: 138px;
+  color: rgb(52, 60, 106);
+  font-family: Mont;
+  font-size: 25px;
+  font-weight: 900;
+  line-height: 32px;
+}
+.credit-card {
+  width: 36px;
+  height: 36px;
+}
+
+.menu {
+  display: flex;
+  gap: 26px;
+}
+
+.icons {
+  margin-bottom: 30px;
+  width: 25px;
+}
+.menu-text {
+  width: 94px;
+  height: 22px;
+  left: 95px;
+  top: 133px;
+  color: rgb(177, 177, 177);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.menu-element {
+  margin-bottom: 37px;
+  white-space: nowrap;
+}
+
+.vertical-line {
+  width: 2px;
+  background: rgb(230, 239, 245);
+}
+
+/* ################################### */
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.header-title {
+  width: 171px;
+  color: rgb(52, 60, 106);
+  font-family: Inter;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 34px;
+}
+.header-list {
+  display: flex;
+  gap: 20px;
+}
+.input {
+  width: 255px;
+  border-radius: 40px;
+  background: rgb(245, 247, 250);
+  color: rgb(139, 163, 203);
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  padding: 16px 43px 16px 60px;
+  border-style: none;
+}
+
+.div-settings {
+  background: rgb(245, 247, 250);
+  padding: 12px;
+  border-radius: 50%;
+}
+
+.div-sms {
+  background: rgb(245, 247, 250);
+  align-items: center;
+  padding: 12px;
+  border-radius: 50%;
+}
+.profile {
+  width: 138.46px;
+  border-radius: 50%;
+}
+/* ###################################### */
+.main {
+  width: 1440px;
+  background-color: lightgray;
+  padding: 40px;
+}
+.my-cards {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.blue-cards {
+  width: 350px;
+  left: 290px;
+  top: 172px;
+  border-radius: 25px;
+  background-color: blue;
+  color: white;
+  padding: 24px;
+}
+.card-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.card-header {
+  width: 102px;
+  color: rgb(51, 59, 105);
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 27px;
+  margin-bottom: 20px;
+}
+.card-number {
+  display: flex;
+  justify-content: space-between;
+}
+.white-card {
+  width: 350px;
+  left: 290px;
+  top: 172px;
+  border-radius: 25px;
+  background-color: white;
+  color: black;
+  padding: 24px;
+}
+
+/* ############################## */
+.card-statistics {
+  margin-bottom: 20px;
+}
+.card-list-and-statistics {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+.card-list-title {
+  margin-bottom: 20px;
+}
+.card-expense {
+  width: 350px;
+  border-radius: 25px;
+  background: rgb(255, 255, 255);
+}
+.statistics-img {
+  padding: 30px 70px 30px 70px;
+}
+
+.options {
+  display: flex;
+}
+
+.cards {
+  width: 730px;
+  border-radius: 20px;
+  background: rgb(255, 255, 255);
+  padding: 15px;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.card-icon {
+  width: 60px;
+  border-radius: 20px;
+  background-color: rgb(231, 237, 255);
+}
+.card-img {
+  padding: 20px;
+}
+.card-paragraf {
+  width: 77px;
+  color: rgb(113, 142, 191);
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  white-space: nowrap;
+}
+
+/* ################################## */
+.add-paragraf {
+  margin-bottom: 20px;
+}
+.add-new-card {
+  width: 730px;
+  border-radius: 25px;
+  background: rgb(255, 255, 255);
+  padding: 20px;
+}
+.new-card {
+  display: flex;
+  gap: 20px;
+}
+
+.card-input {
+  background-color: white;
+  width: 320px;
+  margin-bottom: 20px;
+}
+.new-card-paragraf {
+  width: 633px;
+  color: rgb(113, 142, 191);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 20px;
+}
+
+.card-setting {
+  width: 350px;
+  border-radius: 25px;
+  background: rgb(255, 255, 255);
+  padding: 30px;
+  display: flex;
+  gap: 30px;
+}
+.block {
+  width: 60px;
+  border-radius: 20px;
+  background: rgb(255, 245, 217);
+  padding: 18px;
+  margin-bottom: 20px;
+}
+.pin {
+  width: 60px;
+  border-radius: 20px;
+  background: rgb(231, 237, 255);
+  padding: 18px;
+  margin-bottom: 20px;
+}
+.google-pay {
+  width: 60px;
+  border-radius: 20px;
+  background: rgb(255, 224, 235);
+  padding: 18px;
+  margin-bottom: 20px;
+}
+
+.apple-pay {
+  width: 60px;
+  border-radius: 20px;
+  background: rgb(220, 250, 248);
+  padding: 18px;
+  margin-bottom: 20px;
+}
+.apple {
+  width: 60px;
+  border-radius: 20px;
+  background: rgb(220, 250, 248);
+  padding: 18px;
+}
+
+.option-name {
+  width: 84px;
+  color: rgb(35, 35, 35);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  white-space: nowrap;
+}
+.option-paragraf {
+  width: 175px;
+  color: rgb(113, 142, 191);
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  white-space: nowrap;
+}
+
+.list {
+  margin-bottom: 52px;
+}
+.add-and-setting {
+  display: flex;
+}
+
+.card-setting-style {
+  margin-bottom: 20px;
+}
